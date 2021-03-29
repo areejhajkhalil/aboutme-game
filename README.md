@@ -1,1 +1,28 @@
 # aboutme-game
+
+**Lab-02**
+
+**Project name:**
+
+*(About me guessing game)*
+ *The website is a guess game, Let the visitors guess about my age, my name, the places I prefer, the name of my favorite city, and what are my hobbies.*
+
+
+**Auther:**
+
+*Areej Haj Khalil*
+
+
+**Links and Resources:**
+
+*I copy the (eslintrc.json and gitignore) from this link:*
+(https://github.com/LTUC/amman-201d20)
+
+
+
+**Reflections and comments**
+
+1)*All goes well but it took some time and focus to get the final fit right.*
+2)*I have no notes.*
+3)*It took two hours, and I thought it was a difficult task that took a lot of time to complete.*
+
