@@ -7,6 +7,7 @@
    userName=prompt('enter your name pleas')}
    alert( "hello "   +  userName  +  " Let's start the guessing game"); 
 
+   var score=0;
 
    let age= prompt('Do you think I am in my twenties?');
    age=age.
@@ -16,6 +17,7 @@
    if (age==='yes' || age==='y'){
        // console.log('good job');
        alert('ohh good job');
+      score++
    }
    else if (age==='no' || age==='n'){
        // console.log('you guessed wrong');
@@ -36,6 +38,7 @@
    if (travel==='yes' || travel==='y'){
        // console.log('good job');
        alert('ohh good job');
+       score++
    }
    else if (travel==='no' || travel==='n'){
        // console.log('you guessed wrong');
@@ -59,6 +62,7 @@
    else if (travel==='no' || travel==='n'){
        // console.log('ohh good job');
        alert('ohh good job');
+       score++
    }
    else{
        // console.log('Please only enter yes or no');
@@ -77,6 +81,7 @@
    else if (Name==='no' || Name==='n'){
        // console.log('good, my name is Areej');
        alert('good, my Name is Areej');
+       score++
    }
    else{
        // console.log('Please only enter yes or no');
@@ -96,10 +101,55 @@
    else if (meal==='no' || meal==='n'){
        // console.log('ohh good job');
        alert('ohh good job');
+       score++
    }
    else{
        // console.log('Please only enter yes or no');
        alert('Please only enter yes or no');}
   
 
-   alert("Thanks for visiting and for your correct guess");
+
+
+   var i=0;
+   for(let i=0; i<4; i++){
+   let unmber= prompt(' Can you guess my favorite number, choose between 1-10 ? ');
+   if(unmber>4){
+       alert(' too high');
+   }
+   else if(unmber<4){
+       alert('too low');
+   }
+
+   else {
+      alert('very good my favorite unmber is 4');
+
+       score++
+       break;
+      
+   }
+   }
+
+
+   var a=0;
+   for(let a=0; a<6; a++){
+   let city= prompt(' Can you guess my favorite city, starting with the letter L ? ');
+   city=city.
+   toLowerCase();
+    if (city!='london'){
+       alert('your answer is wrong.');   
+    }
+
+    else {
+       alert('very good, my favorite city is london.');
+        score++
+        break;
+        }
+
+
+
+
+
+
+
+   }
+   alert('Thanks for visiting and for your correct guess; your score is : ' + score );

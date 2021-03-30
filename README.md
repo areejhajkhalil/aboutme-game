@@ -26,3 +26,10 @@
 2)*I have no notes.*
 3)*It took two hours, and I thought it was a difficult task that took a lot of time to complete.*
 
+**Tools:**
+-*I used several tools such as:*
+-*loops: For loop / break.*
+-*Lists: unordred list/ordred list.*
+-*Conditional Statements: if statements.*
+-*Tolowercase.*
+-*Prompt / Let.*
