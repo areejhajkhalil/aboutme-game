@@ -32,7 +32,7 @@ question1();
   
 
 
-
+function question2(){
    let travel= prompt('Do you think I like to travel?');
    travel=travel.
    toLowerCase();
@@ -49,7 +49,9 @@ question1();
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');} 
+       alert('Please only enter yes or no');}   
+}
+question2();  
   
 
    
