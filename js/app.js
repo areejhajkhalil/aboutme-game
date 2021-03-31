@@ -101,7 +101,7 @@ question4();
   
   
 
-
+function question5(){
    let meal= prompt('Is pizza my favorite meal?');
    meal=meal.
    toLowerCase();
@@ -118,7 +118,9 @@ question4();
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');}  
+}
+question();  
   
 
 
