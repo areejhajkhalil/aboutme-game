@@ -120,7 +120,7 @@ function question5(){
        // console.log('Please only enter yes or no');
        alert('Please only enter yes or no');}  
 }
-question();  
+question5();  
   
 
 
