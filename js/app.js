@@ -8,8 +8,8 @@
    alert( "hello "   +  userName  +  " Let's start the guessing game"); 
 
    var score=0;
-
-   let age= prompt('Do you think I am in my twenties?');
+function question1(){
+    let age= prompt('Do you think I am in my twenties?');
    age=age.
    toLowerCase();
    // console.log(age);
@@ -17,7 +17,7 @@
    if (age==='yes' || age==='y'){
        // console.log('good job');
        alert('ohh good job');
-      score++
+      score++;
    }
    else if (age==='no' || age==='n'){
        // console.log('you guessed wrong');
@@ -26,10 +26,13 @@
    else{
        // console.log('Please only enter yes or no');
        alert('Please only enter yes or no');}
+}
+question1();
+   
   
 
 
-  
+function question2(){
    let travel= prompt('Do you think I like to travel?');
    travel=travel.
    toLowerCase();
@@ -38,7 +41,7 @@
    if (travel==='yes' || travel==='y'){
        // console.log('good job');
        alert('ohh good job');
-       score++
+       score++;
    }
    else if (travel==='no' || travel==='n'){
        // console.log('you guessed wrong');
@@ -46,11 +49,16 @@
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');}   
+}
+question2();  
   
 
+   
+  
 
-   let sports = prompt('Do you think I like sports a lot?');
+function question3(){
+    let sports = prompt('Do you think I like sports a lot?');
    sports=sports.
    toLowerCase();
    // console.log(age);
@@ -62,14 +70,16 @@
    else if (travel==='no' || travel==='n'){
        // console.log('ohh good job');
        alert('ohh good job');
-       score++
+       score++;
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');}  
+}
+question3(); 
   
-
-   let Name = prompt('Do you think my Name is latin?');
+function question4(){
+    let Name = prompt('Do you think my Name is latin?');
    Name=Name.
    toLowerCase();
    // console.log(age);
@@ -81,14 +91,17 @@
    else if (Name==='no' || Name==='n'){
        // console.log('good, my name is Areej');
        alert('good, my Name is Areej');
-       score++
+       score++;
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');} 
+}
+question4();
+  
   
 
-
+function question5(){
    let meal= prompt('Is pizza my favorite meal?');
    meal=meal.
    toLowerCase();
@@ -101,16 +114,18 @@
    else if (meal==='no' || meal==='n'){
        // console.log('ohh good job');
        alert('ohh good job');
-       score++
+       score++;
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');}  
+}
+question5();  
   
 
 
-
-   var i=0;
+function question6(){
+  var i=0;
    for(let i=0; i<4; i++){
    let unmber= prompt(' Can you guess my favorite number, choose between 1-10 ? ');
    if(unmber>4){
@@ -123,33 +138,45 @@
    else {
       alert('very good my favorite unmber is 4');
 
-       score++
+       score++;
        break;
       
    }
-   }
+   }   
+}
+question6();
+  
 
-
-   var a=0;
+function question7(){
+   var a=0;  
+   let correctPleaces=['london','new york','paris','dubai'];
+   let userName=null;
    for(let a=0; a<6; a++){
-   let city= prompt(' Can you guess my favorite city, starting with the letter L ? ');
-   city=city.
-   toLowerCase();
-    if (city!='london'){
-       alert('your answer is wrong.');   
-    }
+        
+        let userName= prompt(' Can you guess my favorite city, starting with the letter L ? ');
+        userName=userName.toLowerCase();
 
-    else {
-       alert('very good, my favorite city is london.');
-        score++
-        break;
+        for(let i=0;i<correctPleaces.length;i++){
+           
+           if(correctPleaces[i]===userName){
+           alert('very good, my favorite cities\n  [london] [new] [york] [paris] [dubai]  ');
+           a=7; 
+           score++;
+                
+
+ 
+        }
+        
+        }
+        if (a==5){
+           alert('hard luck for next time the correct answer are :\n  [london] [new] [york] [paris] [dubai]');
         }
 
+        }  
+    }
+    question7();
+
+       
 
 
-
-
-
-
-   }
-   alert('Thanks for visiting and for your correct guess; your score is : ' + score );
+alert('Thanks for visiting and for your correct guess; your score is : ' + score );
