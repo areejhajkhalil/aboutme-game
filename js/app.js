@@ -124,8 +124,8 @@ question5();
   
 
 
-
-   var i=0;
+function question6(){
+  var i=0;
    for(let i=0; i<4; i++){
    let unmber= prompt(' Can you guess my favorite number, choose between 1-10 ? ');
    if(unmber>4){
@@ -142,7 +142,10 @@ question5();
        break;
       
    }
-   }
+   }   
+}
+question6();
+  
 
 
    var a=0;
