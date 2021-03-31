@@ -8,8 +8,8 @@
    alert( "hello "   +  userName  +  " Let's start the guessing game"); 
 
    var score=0;
-
-   let age= prompt('Do you think I am in my twenties?');
+function question1(){
+    let age= prompt('Do you think I am in my twenties?');
    age=age.
    toLowerCase();
    // console.log(age);
@@ -26,10 +26,13 @@
    else{
        // console.log('Please only enter yes or no');
        alert('Please only enter yes or no');}
+}
+question1();
+   
   
 
 
-  
+
    let travel= prompt('Do you think I like to travel?');
    travel=travel.
    toLowerCase();
@@ -46,7 +49,10 @@
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');} 
+  
+
+   
   
 
 
