@@ -17,7 +17,7 @@ function question1(){
    if (age==='yes' || age==='y'){
        // console.log('good job');
        alert('ohh good job');
-      score++
+      score++;
    }
    else if (age==='no' || age==='n'){
        // console.log('you guessed wrong');
@@ -41,7 +41,7 @@ function question2(){
    if (travel==='yes' || travel==='y'){
        // console.log('good job');
        alert('ohh good job');
-       score++
+       score++;
    }
    else if (travel==='no' || travel==='n'){
        // console.log('you guessed wrong');
@@ -70,7 +70,7 @@ function question3(){
    else if (travel==='no' || travel==='n'){
        // console.log('ohh good job');
        alert('ohh good job');
-       score++
+       score++;
    }
    else{
        // console.log('Please only enter yes or no');
@@ -91,7 +91,7 @@ function question4(){
    else if (Name==='no' || Name==='n'){
        // console.log('good, my name is Areej');
        alert('good, my Name is Areej');
-       score++
+       score++;
    }
    else{
        // console.log('Please only enter yes or no');
@@ -114,7 +114,7 @@ function question5(){
    else if (meal==='no' || meal==='n'){
        // console.log('ohh good job');
        alert('ohh good job');
-       score++
+       score++;
    }
    else{
        // console.log('Please only enter yes or no');
@@ -138,7 +138,7 @@ function question6(){
    else {
       alert('very good my favorite unmber is 4');
 
-       score++
+       score++;
        break;
       
    }
@@ -147,27 +147,36 @@ function question6(){
 question6();
   
 
-
-   var a=0;
+function question7(){
+   var a=0;  
+   let correctPleaces=['london','new york','paris','dubai'];
+   let userName=null;
    for(let a=0; a<6; a++){
-   let city= prompt(' Can you guess my favorite city, starting with the letter L ? ');
-   city=city.
-   toLowerCase();
-    if (city!='london'){
-       alert('your answer is wrong.');   
-    }
+        
+        let userName= prompt(' Can you guess my favorite city, starting with the letter L ? ');
+        userName=userName.toLowerCase();
 
-    else {
-       alert('very good, my favorite city is london.');
-        score++
-        break;
+        for(let i=0;i<correctPleaces.length;i++){
+           
+           if(correctPleaces[i]===userName){
+           alert('very good, my favorite cities\n  [london] [new] [york] [paris] [dubai]  ');
+           a=7; 
+           score++;
+                
+
+ 
+        }
+        
+        }
+        if (a==5){
+           alert('hard luck for next time the correct answer are :\n  [london] [new] [york] [paris] [dubai]');
         }
 
+        }  
+    }
+    question7();
+
+       
 
 
-
-
-
-
-   }
-   alert('Thanks for visiting and for your correct guess; your score is : ' + score );
+alert('Thanks for visiting and for your correct guess; your score is : ' + score );
