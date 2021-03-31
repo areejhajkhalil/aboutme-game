@@ -1,6 +1,6 @@
 # aboutme-game
 
-**Lab-02**
+## Lab-02 
 
 **Project name:**
 
@@ -33,3 +33,15 @@
 -*Conditional Statements: if statements.*
 -*Tolowercase.*
 -*Prompt / Let.*
+
+## Lab-04
+
+**The Driver:** 
+*Amro Albarham*
+ 
+ **The Navigator:**
+ *Areej Haj Khalil*
+
+ #### what we do ?
+ *We worked ( Pair programming Process ) after we followed the steps , than We used tools like (Function) for every question and after each question we uploaded the content (A-C-P) to Github*
+
