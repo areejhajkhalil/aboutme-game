@@ -57,8 +57,8 @@ question2();
    
   
 
-
-   let sports = prompt('Do you think I like sports a lot?');
+function question3(){
+    let sports = prompt('Do you think I like sports a lot?');
    sports=sports.
    toLowerCase();
    // console.log(age);
@@ -74,7 +74,9 @@ question2();
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');}  
+}
+question3(); 
   
 
    let Name = prompt('Do you think my Name is latin?');
