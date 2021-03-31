@@ -78,8 +78,8 @@ function question3(){
 }
 question3(); 
   
-
-   let Name = prompt('Do you think my Name is latin?');
+function question4(){
+    let Name = prompt('Do you think my Name is latin?');
    Name=Name.
    toLowerCase();
    // console.log(age);
@@ -95,7 +95,10 @@ question3();
    }
    else{
        // console.log('Please only enter yes or no');
-       alert('Please only enter yes or no');}
+       alert('Please only enter yes or no');} 
+}
+question4();
+  
   
 
 
